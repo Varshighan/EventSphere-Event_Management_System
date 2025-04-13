@@ -8,14 +8,14 @@ import { getAnalytics } from "firebase/analytics";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBsBFpYLnMyfJv<<<<your_apiKey>>>>8SzYzKEf62dIwOp4qk8I",
-  authDomain: "event-management-b5f16.firebaseapp.com",
-  databaseURL: "https://event-management-b5f16-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "event-management-b5f16",
-  storageBucket: "event-management-b5f16.firebasestorage.app",
-  messagingSenderId: "777325040227",
-  appId: "1:777325040227:web:78f0ca75bc03fa13661e56",
-  measurementId: "G-WT6S7B0ZVK"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DB_URL,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MSG_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
 
