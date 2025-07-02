@@ -45,7 +45,7 @@ A powerful, real-time **Event Management System** designed for academic institut
 
 ## 📁 Project Structure
 ---
-<pre>```
+```text
 event-management-system/
 ├── assets/ # UI icons, images
 ├── mail_backend/ # Email reminders
@@ -61,8 +61,7 @@ event-management-system/
 ├── Home/ # Homepage carousel, guest views
 ├── app.py # Flask or setup script
 ├── event_app.py # Entry script
-</pre>
-
+```
 ---
 
 ## 🚀 Setup Instructions
